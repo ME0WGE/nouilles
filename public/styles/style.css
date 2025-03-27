@@ -93,4 +93,21 @@
     font-weight: normal;
     letter-spacing: 5px;
   }
+  .header-btn {
+    display: flex;
+    height: 4.5vh;
+    width: 8vw;
+    background-color: #6959a6;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-btn > p > a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9vw;
+  }
 }
