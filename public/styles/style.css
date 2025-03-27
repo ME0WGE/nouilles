@@ -369,4 +369,16 @@ body {
     align-items: center;
     text-align: center;
   }
+  /* FOOTER */
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 60vw;
+  }
+  .footer-copyright {
+    margin: 0;
+  }
+  .footer-links {
+    display: flex;
+  }
 }
