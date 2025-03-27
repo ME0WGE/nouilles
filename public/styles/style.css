@@ -196,6 +196,21 @@ body {
     color: #6959a6;
     font-size: 2vw;
   }
+  .section1-whoami > p:nth-of-type(3) {
+    border: 1px solid #6959a6;
+    border-radius: 1vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1-whoami > p > a {
+    font-size: 1vw;
+    color: #6959a6;
+    text-decoration: none;
+    padding: 1vw;
+    text-align: center;
+  }
   /* SECTION 2 */
   .section2 {
     display: flex;
