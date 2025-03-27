@@ -234,17 +234,17 @@ body {
   .section2-logo {
     margin: 0;
     display: flex;
-    gap: 6vw;
+    gap: 2vw;
   }
   .section2-logo-img {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     border: 1px solid black;
   }
   .section2-logo-img > img {
