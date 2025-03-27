@@ -287,4 +287,36 @@ body {
     align-items: center;
     gap: 25vw;
   }
+  /* SECTION 6 */
+  .section6 {
+    display: flex;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .section6-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    width: 80vw;
+  }
+  .section6-logo {
+    margin: 0;
+    display: flex;
+    gap: 2vw;
+  }
+  .section6-logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section6-logo-img-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section6-logo-img-img > img {
+    width: 5vw;
+  }
 }
