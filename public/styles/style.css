@@ -167,6 +167,7 @@ body {
     margin-top: 20vh;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3vw;
   }
   .section1-container {
     display: flex;
@@ -249,11 +250,23 @@ body {
   .section2-logo-img > img {
     width: 5vw;
   }
-  .section2-whoami {
-    margin: 0;
-    display: block;
-    justify-content: center;
+  .section2-title {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+  .section2-title > p,
+  h3 {
+    margin: 0;
+  }
+  .section2-title > p {
+    color: #727272;
+  }
+  .section2-title > h3 {
+    color: #6959a6;
+    font-size: 2vw;
+    margin-bottom: 3vw;
   }
   /* SECTION 3 */
   .section3 {
