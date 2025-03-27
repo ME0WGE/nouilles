@@ -35,7 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50vw;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+    border-bottom: 1px solid rgba(20, 23, 26, 0.044);
   }
   .navbar-menu {
     margin: 0;
