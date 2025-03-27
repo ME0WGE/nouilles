@@ -355,4 +355,18 @@ body {
     align-items: center;
     justify-content: center;
   }
+  /* SECTION 8 */
+  .section8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+  }
+  .section8-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
