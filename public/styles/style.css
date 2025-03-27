@@ -384,6 +384,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   .section4-logo-img-content > img {
     width: 5.5vw;
@@ -396,13 +397,22 @@ body {
     font-size: 2.5vw;
     flex: 1;
   }
+  .section4-logo-img:nth-of-type(2)
+    > .section4-logo-img-content:nth-of-type(1)
+    > img {
+    margin-top: -2vw;
+    margin-bottom: -0.5vw;
+  }
   .section4-logo-img-content > p:nth-of-type(1) {
     color: #727272;
     font-size: 1vw;
     flex: 1;
+    width: 10vw;
+    line-height: 1.8;
   }
   .section4-logo-img-content > p:nth-of-type(2) {
     font-family: "Noto Sans JP", sans-serif;
+    margin: 0;
     font-size: 2vw;
     color: #1a252ec2;
     font-weight: 600;
@@ -415,10 +425,18 @@ body {
     height: 4.5vh;
     width: 8vw;
     background-color: #6959a6;
-    border-radius: 100px;
+    border-radius: 5px;
+    flex: 1 2.5vw;
+  }
+  .section4-logo-img-content > i {
     flex: 1;
+    font-size: 1.5vw;
+    margin: 10px;
   }
   .section4-logo-img-content > p:nth-of-type(3) > a {
+    text-decoration: none;
+    color: #f5f8fa;
+    font-size: 1.3vw;
   }
   /* SECTION 5 */
   .section5 {
