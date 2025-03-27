@@ -398,6 +398,8 @@ body {
   }
   .footer-links > div > a > i {
     padding: 0.8vw;
-    font-size: 1vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.432);
   }
 }
