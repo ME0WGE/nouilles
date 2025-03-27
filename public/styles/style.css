@@ -343,4 +343,16 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .section7-post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+  }
+  .section7-post-content > div:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
