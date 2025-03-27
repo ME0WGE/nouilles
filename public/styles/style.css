@@ -374,13 +374,15 @@ body {
   /* FOOTER */
   footer {
     align-self: center;
+    border-top: 1px solid black;
+    margin-top: 3vw;
   }
   .footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60vw;
-    border-top: 1px solid black;
+    margin-top: 1vw;
   }
   .footer-copyright {
     margin: 0;
