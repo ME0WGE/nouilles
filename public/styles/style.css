@@ -231,4 +231,37 @@ body {
   .section3-logo-img > img {
     width: 20vw;
   }
+  /* SECTION 4 */
+  .section4 {
+    display: flex;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .section4-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    width: 80vw;
+  }
+  .section4-logo {
+    margin: 0;
+    display: flex;
+    gap: 10vw;
+  }
+  .section4-logo-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border: 1px solid black;
+  }
+  .section4-logo-img-content > img {
+    width: 10vw;
+  }
 }
