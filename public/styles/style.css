@@ -139,5 +139,30 @@ body {
 |                CONTENT                     |
 |--------------------------------------------|
 */
-
+  /* SECTION 1 */
+  .section1 {
+    display: flex;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1-container {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+  }
+  .section1-img {
+    margin: 0;
+  }
+  .section1-img > img {
+    width: 20vw;
+  }
+  .section1-whoami {
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
 }
