@@ -134,7 +134,8 @@ body {
     letter-spacing: 0.5vw;
     font-family: "Noto Sans JP", sans-serif;
     margin-bottom: 2vw;
-    opacity: 0.75;
+    color: #14171a;
+    opacity: 0.5;
   }
   .header-btn {
     display: flex;
@@ -144,6 +145,7 @@ body {
     border-radius: 100px;
     justify-content: center;
     align-items: center;
+    filter: hue-rotate(-15deg);
   }
   .header-btn > p > a {
     display: flex;
@@ -152,6 +154,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 0.9vw;
+    font-family: "Noto Sans JP", sans-serif;
   }
   /* 
 |--------------------------------------------|
