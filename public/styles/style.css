@@ -385,10 +385,18 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .section4-logo-img-content > img {
+    width: 5.5vw;
+    margin-top: -5vw;
+  }
   .section4-logo-img-content > h3 {
     margin: 0;
     color: #6959a6;
     font-size: 2.5vw;
+  }
+  .section4-logo-img-content > p:nth-of-type(1) {
+    color: #727272;
+    font-size: 1vw;
   }
   .section4-logo-img-content > p:nth-of-type(3) {
     display: flex;
@@ -400,9 +408,6 @@ body {
     border-radius: 100px;
   }
   .section4-logo-img-content > p:nth-of-type(3) > a {
-  }
-  .section4-logo-img-content > img {
-    width: 5.5vw;
   }
   /* SECTION 5 */
   .section5 {
