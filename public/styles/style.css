@@ -161,6 +161,45 @@ body {
   }
   .section1-whoami {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* SECTION 2 */
+  .section2 {
+    display: flex;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .section2-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    width: 80vw;
+  }
+  .section2-logo {
+    margin: 0;
+    display: flex;
+    gap: 10vw;
+  }
+  .section2-logo-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border: 1px solid black;
+  }
+  .section2-logo-img > img {
+    width: 5vw;
+  }
+  .section2-whoami {
+    margin: 0;
     display: block;
     justify-content: center;
     align-items: center;
