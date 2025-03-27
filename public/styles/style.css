@@ -319,4 +319,17 @@ body {
   .section6-logo-img-img > img {
     width: 5vw;
   }
+  /* SECTION 7 */
+  .section7 {
+    margin: 0;
+    display: flex;
+  }
+  .section7-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
 }
