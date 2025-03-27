@@ -1,1 +1,42 @@
+/* 
+|--------------------------------------------|
+|                   BODY                     |
+|--------------------------------------------|
+*/
+body {
+  margin: 0;
+  padding: 0;
+}
+@media (width > 900px) {
+  /* NAVBAR */
+  nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
 
+  .navbar-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar-menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  /* HEADER */
+  header {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    background-image: url("/public/assets/img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip: rect(33vh 100vw 1000px 0vw);
+  }
+}
