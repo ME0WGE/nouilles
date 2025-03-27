@@ -78,10 +78,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100% 33%;
+    align-items: center;
+    justify-content: center;
   }
   .header-container {
     margin: 0;
     padding: 0;
-    width: 5vw;
+    width: 40vw;
+    font-size: 1.5vw;
+    margin-top: 15vw;
+  }
+  .header-title {
+    
   }
 }
