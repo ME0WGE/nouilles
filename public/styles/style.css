@@ -380,5 +380,11 @@ body {
   }
   .footer-links {
     display: flex;
+    gap: 1vw;
+  }
+  .footer-links > div > i {
+    padding: 1vw;
+    border: 1px solid black;
+    border-radius: 50%;
   }
 }
