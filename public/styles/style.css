@@ -191,11 +191,12 @@ body {
   .section1-whoami > p:nth-of-type(1) {
     color: #727272;
     margin: 0;
+    font-size: 1vw;
   }
   .section1-whoami > h3 {
     margin: 0;
     color: #6959a6;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .section1-whoami > p:nth-of-type(3) {
     border: 1px solid #6959a6;
@@ -241,14 +242,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 7vw;
-    padding-right: 7vw;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    border: 1px solid black;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    border: 1px solid #14171a31;
+    border-radius: 5px;
   }
   .section2-logo-img > img {
-    width: 5vw;
+    width: 5.5vw;
+    margin-bottom: 1.5vw;
+  }
+  .section2-logo-img > h3 {
+    margin: 0;
+    color: #6959a6;
+    font-size: 1.5vw;
   }
   .section2-title {
     display: flex;
@@ -262,10 +270,11 @@ body {
   }
   .section2-title > p {
     color: #727272;
+    font-size: 1vw;
   }
   .section2-title > h3 {
     color: #6959a6;
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin-bottom: 3vw;
   }
   /* SECTION 3 */
