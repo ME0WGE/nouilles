@@ -89,6 +89,9 @@
     font-size: 1.5vw;
     margin-top: 15vw;
   }
+  .header-title > h1, h2 {
+    margin: 0;
+  }
   /* HI! */
   .header-title:nth-of-type(1) > h1:nth-of-type(1) {
     opacity: 0.5;
@@ -100,10 +103,11 @@
   }
   /* FRONTEND WEB DESIGNER */
   .header-title > h2 {
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: normal;
     letter-spacing: 5px;
     font-family: "Noto Sans JP", sans-serif;
+    margin-bottom: 2vw;
   }
   .header-btn {
     display: flex;
