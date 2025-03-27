@@ -396,7 +396,7 @@ body {
     gap: 1vw;
   }
   .footer-links > div {
-    border: 1px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.63);
     border-radius: 50%;
   }
   .footer-links > div > a > i {
@@ -404,5 +404,30 @@ body {
     font-size: 1.2vw;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.63);
+  }
+  /* FOOTER HOVER */
+  .footer-links > div:nth-of-type(1):hover {
+    background-color: red;
+  }
+  .fa-facebook-f:hover {
+    color: #1877f2;
+  }
+  .fa-x-twitter:hover {
+    color: #14171a;
+  }
+  .footer-links > div:nth-of-type(3):hover {
+    background: #14171a;
+  }
+  .fa-pinterest:hover {
+    color: #e60023;
+  }
+  .footer-links > div:nth-of-type(4):hover {
+    background: #833ab4;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  }
+  .fa-instagram:hover {
+    color: #14171a;
+  }
+  .fa-chromecast:hover {
   }
 }
