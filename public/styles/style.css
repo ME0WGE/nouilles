@@ -241,6 +241,9 @@ body {
   .section4-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     margin: 0;
     align-items: center;
     width: 80vw;
@@ -248,6 +251,8 @@ body {
   .section4-logo {
     margin: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10vw;
   }
   .section4-logo-img {
@@ -257,9 +262,10 @@ body {
     align-items: center;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 0;
+    padding-bottom: 0;
     border: 1px solid black;
+    height: 30vw;
   }
   .section4-logo-img-content > img {
     width: 10vw;
