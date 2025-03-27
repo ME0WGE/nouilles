@@ -31,16 +31,4 @@ img {
     display: flex;
     flex-direction: row;
   }
-  /* HEADER */
-  header {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    height: 50vh;
-    width: 100%;
-    background-image: url("/public/assets/img/header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    clip: rect(33vh 100vw 100vw 0vw);
-  }
 }
