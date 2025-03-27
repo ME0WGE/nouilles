@@ -388,6 +388,9 @@ body {
   .footer-copyright {
     margin: 0;
   }
+  .footer-copyright > p {
+    color: rgba(0, 0, 0, 0.63);
+  }
   .footer-links {
     display: flex;
     gap: 1vw;
@@ -400,6 +403,6 @@ body {
     padding: 0.8vw;
     font-size: 1.2vw;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.432);
+    color: rgba(0, 0, 0, 0.63);
   }
 }
