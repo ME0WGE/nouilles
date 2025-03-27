@@ -374,7 +374,7 @@ body {
   /* FOOTER */
   footer {
     align-self: center;
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
     margin-top: 3vw;
     margin-bottom: 1vw;
   }
