@@ -80,7 +80,7 @@ body {
 |--------------------------------------------|
 */
   header {
-    height: 50vh;
+    height: 80vh;
     display: flex;
     background-image: linear-gradient(
         rgba(255, 255, 255, 0),
@@ -89,7 +89,7 @@ body {
       url(/public/assets/img/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 33%;
+    background-position: 100% 48%;
     align-items: center;
     justify-content: center;
   }
@@ -97,7 +97,7 @@ body {
     margin: 0;
     padding: 0;
     width: 40vw;
-    font-size: 1.5vw;
+    font-size: 3vw;
     margin-top: 15vw;
   }
   .header-title > h1,
