@@ -331,5 +331,16 @@ body {
     align-items: center;
     text-align: center;
   }
-  
+  .section7-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section7-content-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
